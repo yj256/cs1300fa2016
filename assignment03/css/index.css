@@ -65,11 +65,7 @@ p {
 footer {
     background-color: #b2abd2;
     text-align: center;
-    font-family: 'Abel', sans-serif;
-    font-size:0.7em;
-    color: #f7f7f7;
     padding: 1em 0 10em 0;
-    letter-spacing:0.1em;
 }
 
 /**********************/
@@ -124,9 +120,6 @@ footer {
 
 #nav_bar a {
     text-decoration: none;
-}
-
-#nav_bar a:link {
     color: #5e3c99;
 }
 
@@ -154,4 +147,20 @@ footer {
     text-align:center;
     color: #666A86;  
     font-style:italic;
+}
+
+footer > p {
+    font-family: 'Abel', sans-serif;
+    font-size:0.8em;
+    color: #f7f7f7;
+    letter-spacing:0.1em;    
+}
+
+footer a {
+    text-decoration: none;
+    color:#f7f7f7;
+}
+
+footer a:hover {
+    color: #666A86; 
 }
