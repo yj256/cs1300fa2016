@@ -149,6 +149,14 @@ footer {
     font-style:italic;
 }
 
+.superscript a{
+    text-decoration: none;
+    color: #2d004b;
+}
+
+.superscript a:hover {
+    color: #666A86;
+}
 footer > p {
     font-family: 'Abel', sans-serif;
     font-size:0.8em;
