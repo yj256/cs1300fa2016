@@ -345,7 +345,8 @@ footer {
 }
 
 /* code adapted from: 
-http://stackoverflow.com/questions/4411306/css3-transition-of-background-color */
+http://stackoverflow.com/questions/4411306/css3-transition-of-background-color 
+http://www.w3schools.com/cssref/css3_pr_outline-offset.asp */
 .ani_vid a:hover {
     background-color: rgba(96,161,214,0.5);
     outline: 0.2em solid rgba(96,161,214,0.1);
