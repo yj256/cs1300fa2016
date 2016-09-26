@@ -118,12 +118,11 @@ caption {
 }
 
 .caption {
-    opacity: 0.6;
-    color: #2D3047;
+    color: rgba(45,48,71,0.6);
     font-family: 'Palanquin', sans-serif;
     font-size: 80%;
     letter-spacing: 0.2em;
-    background-color: rgba(45,48,71,0.3);
+    background-color: rgba(45,48,71,0.2);
     padding: 0.3em;
     margin-bottom: 4em;
     margin-top: 0.3em;
@@ -144,6 +143,8 @@ footer {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
+    display:block;
+    z-index:1000;
 }
 
 .videoWrapper iframe {
@@ -204,15 +205,31 @@ footer {
 
 .global_nav {
     font-family: 'Exo 2', sans-serif;
-    font-size: 0.8em;
-    font-weight: 200;
-    letter-spacing: 0.2em;
+    font-size: 0.81em;
+    font-weight: 400;
+    letter-spacing: 0.15em;
     text-align: center;
     border-bottom: solid 0.3em rgba(72,229,194,0.6);
-    background-color: #ffffff;
-    background-color: rgba(255,255,255,0.5);
+    background-color: #f7f7f7;
+    /*background-color: rgba(255,255,255,0.5);*/
     padding: 0.5em 0 0.5em 0;
-    margin: 4.4em auto;
+    margin: 4.3em auto;
+}
+
+/*.global_nav:hover {
+    animation: background-fade 300ms forwards;
+}
+
+@keyframes background-fade {
+    0% {
+        background-color:rgba(255,255,255,0.3);
+    }
+    100% {
+        background-color:#ffffff;
+    }
+}*/
+#home, #scenes {
+    color:#48E5C2;
 }
 
 .nav_span {
@@ -221,11 +238,11 @@ footer {
 
 .nav_span a {
     text-decoration: none;
-    color: #2D3047;
+    color: rgba(45,48,71,0.7);
 }
 
 .nav_span a:hover {
-    color: #48E5C2;
+    color: #2D3047;
 }
 
 .container {
@@ -252,6 +269,10 @@ footer {
     padding-bottom: 0;
     margin-top: 1.1em;
     margin-right: 1em;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .col-left a span:hover {
@@ -260,8 +281,12 @@ footer {
     background-color: rgba(72,229,194,0.7);
     border-bottom: none;
     padding: 0.8em 1.5em 0.8em 1.5em;
-    margin: auto;
-    margin-top: 1em;
+    /*margin: auto;
+    margin-top: 1em;*/
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .col-left a {
@@ -280,17 +305,11 @@ footer {
 }
 
 .col-right h2 {
-    opacity: 0.8;
     font-weight: 400;
-    margin-top: 2em;
 }
 
-.col-right h2:first-of-type {
-    margin-top: 0.8em;
-}
-
-.col-right h3 {
-    opacity: 0.8;
+.staff_tit {
+    color:rgba(45,48,71,0.8);
     margin-bottom: -0.5em;
 }
 
@@ -353,8 +372,7 @@ footer {
 }
 
 .date {
-    opacity: 0.9;
-    color: rgba(45,48,71,0.8);
+    color: rgba(45,48,71,0.7);
     border-bottom: 0.1em solid #5098D3;
     border-bottom-style: dashed;
     padding-bottom: 0.3em;
@@ -362,7 +380,7 @@ footer {
 }
 
 .updates {
-    color: #60A1D6;
+    color: rgba(96,161,214,0.9);
     padding-top: 0.7em;
     margin-bottom: 1em;
 }
@@ -376,9 +394,8 @@ footer {
 }
 
 .sub_title {
-    opacity: 0.6;
-    color: rgba(45,48,71,0.8);
-    margin-top: 0.2em;
+    color: rgba(45,48,71,0.5);
+    margin-top: 0.5em;
 }
 
 .staff_p {
