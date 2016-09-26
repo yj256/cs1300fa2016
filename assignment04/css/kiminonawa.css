@@ -293,6 +293,10 @@ footer {
     font-weight: 400;
 }
 
+.col-right-tit {
+    margin-top:2em;
+}
+
 .staff_tit {
     color:rgba(45,48,71,0.8);
     margin-bottom: -0.5em;
@@ -375,6 +379,10 @@ http://www.w3schools.com/cssref/css3_pr_outline-offset.asp */
     margin-top: 2.5em;
 }
 
+#fst_date {
+    margin-top:0;
+}
+
 .updates {
     color: rgba(96,161,214,0.9);
     padding-top: 0.7em;
@@ -390,7 +398,7 @@ http://www.w3schools.com/cssref/css3_pr_outline-offset.asp */
 }
 
 .sub_title {
-    color: rgba(45,48,71,0.5);
+    color: rgba(45,48,71,0.6);
     margin-top: 0.5em;
 }
 
