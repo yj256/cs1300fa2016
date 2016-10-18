@@ -1,0 +1,28 @@
+/* All of YOUR styles go here. They take effect after those in the normalize CSS file, but will overwrite anything that conflicts. */
+
+#container #button_div {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#container #button_div button {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#container img {
+    width: 100%;
+}
+
+footer {
+    padding-bottom: 5em;
+}
+
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #D33939;
+}
